@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pcams-data-wacv2016 by nmevenkamp</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Pcams-data-wacv2016</h1>
+        <p>This data repository contains texture mosaics and crystal images used in our WACV 2016 paper as well as all resulting segmentations.</p>
+
+        <p class="view"><a href="https://github.com/nmevenkamp/pcams-data-wacv2016">View the Project on GitHub <small>nmevenkamp/pcams-data-wacv2016</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/nmevenkamp/pcams-data-wacv2016/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/nmevenkamp/pcams-data-wacv2016/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/nmevenkamp/pcams-data-wacv2016">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="data-and-results-variational-multi-phase-segmentation-using-high-dimensional-local-features" class="anchor" href="#data-and-results-variational-multi-phase-segmentation-using-high-dimensional-local-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data and results: Variational Multi-Phase Segmentation using High-Dimensional Local Features</h3>
+
+<p>Data and results used in our paper presented at the <strong>IEEE Winter Conference on Applications of Computer Vision (WACV 2016)</strong> - see reference below.</p>
+
+<hr>
+
+<p><strong>CONTENTS</strong>:</p>
+
+<ul>
+<li>Outex_US_00000 texture segmentation test suite (converted to .png format)</li>
+<li>Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)</li>
+<li>Link to ICPR 2014 contest dataset</li>
+<li>All corresponding segmentations produced by our method PCA-MS</li>
+</ul>
+
+<hr>
+
+<pre><code>|- data/
+|+ - Crystals               ground truth crystal images (Figure 2)
+|+ - ICPR2014               README.txt with link to the ICPR 2014 contest dataset
+|+ - Outex:                 ground truth segments and texture mosaics
+|                           from the Outex_US_00000 test suite converted from .ras to .png
+|- results/
+|+ - Crystals               segmentations (.png) and boundary curves (.pdf) 
+|+ - ICPR2014               segmentation results used in Table 2
+|+ + - Raw                  before TxtMerge post-processing
+|+ + - TxtMerge             after TxtMerge post-processing
+|+ + - README.txt           link to Prague website with benchmark results
+|+ - Outex                  segmentation results used in Table 1
+|+ + - README.txt           instructions on how to run quantitative evaluation
+|+ + - Clustering           k-means clustering
+|+ + - FSEG_ICPR2014        ICPR2014 version of FSEG (see link below)
+|+ + - FSEGstar             FSEG with adjusted spectral histograms (see paper)
+|+ + - FSEGstar-TxtMerge    FSEGstar without TxtMerge post-processing   
+</code></pre>
+
+<p>The comparison with FSEG is based on the <a href="http://web.ornl.gov/%7Ejiy/FSEG_contest.zip">ICPR 2014 version</a>.</p>
+
+<hr>
+
+<p><strong>QUANTITATIVE EVALUATION</strong>:</p>
+
+<ul>
+<li>ICPR 2014 benchmark: <a href="http://mosaic.utia.cas.cz/index.php?act=view_res&amp;f3=0&amp;id=&amp;dyn=0&amp;vis=7&amp;hr=1&amp;sort=2&amp;dir=0&amp;f1=0&amp;f2=-1&amp;f4=-1&amp;ndl=-1&amp;nt=-2&amp;alg=-1&amp;ver=&amp;bid=3">The Prague Texture Segmentation Datagenerator and Benchmark</a>
+</li>
+<li>Outex_US_00000 test suite: <a href="results/Outex/README.txt">results/Outex/README.txt</a>
+</li>
+</ul>
+
+<hr>
+
+<p><strong>REFERENCE</strong>:
+Mevenkamp, N., and Berkels, B. <em>Variational Multi-Phase Segmentation using High-Dimensional Local Features</em>. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)</p>
+
+<hr>
+
+<p><strong>CONTACT</strong>:<br>
+Niklas Mevenkamp<br>
+Aachen Institute for Advanced Study in Computational Engineering Science<br>
+RWTH Aachen University<br>
+<a href="mailto:mevenkamp@aices.rwth-aachen.de">mevenkamp@aices.rwth-aachen.de</a><br>
+<a href="http://www.aices.rwth-aachen.de/people/mevenkamp">http://www.aices.rwth-aachen.de/people/mevenkamp</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/nmevenkamp">nmevenkamp</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
