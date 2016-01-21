@@ -5,9 +5,9 @@ ___
 - Outex_US_00000 texture segmentation test suite (converted to .png format)
 - Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
 - Link to ICPR 2014 contest dataset
-- All corresponding segmentations produces by our method PCA-MS
 ___
 ___
+
 
     |- data/
     |+ - Crystals: ground truth crystal images (Figure 2)
