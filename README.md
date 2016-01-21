@@ -30,7 +30,7 @@ The comparison with FSEG is based on the [ICPR 2014 version](http://web.ornl.gov
 ___
 **QUANTITATIVE EVALUATION**:
  - ICPR 2014 benchmark: see [The Prague Texture Segmentation Datagenerator and Benchmark](http://mosaic.utia.cas.cz/index.php?act=view_res&f3=0&id=&dyn=0&vis=7&hr=1&sort=2&dir=0&f1=0&f2=-1&f4=-1&ndl=-1&nt=-2&alg=-1&ver=&bid=3)
- - Outex_US_00000 test suite: see results/Outex/README.txt
+ - Outex_US_00000 test suite: see [results/Outex/README.txt](todo)
 
 ___
 **REFERENCE**:
