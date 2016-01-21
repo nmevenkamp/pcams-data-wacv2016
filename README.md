@@ -8,7 +8,6 @@ ___
 - All corresponding segmentations produces by our method PCA-MS
  
 ___
-___
 
     |- data/
     |+ - Crystals: ground truth crystal images (Figure 2)
