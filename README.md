@@ -12,7 +12,7 @@ ___
     |+ - Crystals               ground truth crystal images (Figure 2)
     |+ - ICPR2014               README.txt with link to the ICPR 2014 contest dataset (Table 2)
     |+ - Outex:                 ground truth segments and texture mosaics
-                                from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
+    |                           from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
     |
     |- results/
     |+ - Crystals               segmentations (.png) and boundary curves (.pdf) 
