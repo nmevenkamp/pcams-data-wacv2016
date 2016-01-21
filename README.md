@@ -9,7 +9,6 @@ ___
  
 ___
 ___
-___
 
     |- data/
     |+ - Crystals: ground truth crystal images (Figure 2)
