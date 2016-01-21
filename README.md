@@ -7,7 +7,7 @@ ___
 - Link to ICPR 2014 contest dataset
 - All corresponding segmentations produces by our method PCA-MS
  
-__
+___
     |- data/
     |+ - Crystals: ground truth crystal images (Figure 2)
     |+ - ICPR2014: contains a README.txt with a link to the ICPR 2014 contest dataset (Table 2)
