@@ -5,7 +5,7 @@ ___
 - Outex_US_00000 texture segmentation test suite (converted to .png format)
 - Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
 - Link to ICPR 2014 contest dataset
-___
+- All corresponding segmentations produces by our method PCA-MS
 ___
 
 
@@ -25,7 +25,6 @@ ___
 **QUANTITATIVE EVALUATION**:
  - ICPR 2014 benchmark: results are posted on [The Prague Texture Segmentation Datagenerator and Benchmark](http://mosaic.utia.cas.cz/index.php?act=view_res&f3=0&id=&dyn=0&vis=7&hr=1&sort=2&dir=0&f1=0&f2=-1&f4=-1&ndl=-1&nt=-2&alg=-1&ver=&bid=3)
  - Outex_US_00000 test suite: see results/Outex/README.txt
- 
 
 ___
 **REFERENCE**:
