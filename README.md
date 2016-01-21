@@ -6,21 +6,19 @@ ___
  - Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
  - Link to ICPR 2014 contest dataset
  - All corresponding segmentations produces by our method PCA-MS
- 
-___
 ___
 
-
-    |- data
-    |+ - data/Crystals: ground truth crystal images (Figure 2)
-    |+ - data/ICPR2014: contains a README.txt with a link to the ICPR 2014 contest dataset (Table 2)
-    |+ - data/Outex: ground truth segments and texture mosaics from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
-    |- results
-    |+ - results/Crystals: segmentations (.png) and boundary curves plotted onto input images (.pdf) 
-    |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
-    |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing
-    |+ - results/ICPR2014/README.txt: link to Prague website with benchmark results
-    |+ - results/Outex/README.txt: instructions on how to run quantitative evaluation
+    |- data/
+    |+ - Crystals: ground truth crystal images (Figure 2)
+    |+ - ICPR2014: contains a README.txt with a link to the ICPR 2014 contest dataset (Table 2)
+    |+ - Outex: ground truth segments and texture mosaics from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
+    |
+    |- results/
+    |+ - Crystals: segmentations (.png) and boundary curves plotted onto input images (.pdf) 
+    |+ - ICPR2014/Raw: segmentations before TxtMerge post-processing
+    |+ - ICPR2014/TxtMerge: segmentations after TxtMerge post-processing
+    |+ - ICPR2014/README.txt: link to Prague website with benchmark results
+    |+ - Outex/README.txt: instructions on how to run quantitative evaluation
     
 ___
 **QUANTITATIVE EVALUATION**:
