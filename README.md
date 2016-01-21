@@ -10,16 +10,23 @@ ___
 ___
     |- data/
     |+ - Crystals               ground truth crystal images (Figure 2)
-    |+ - ICPR2014               README.txt with link to the ICPR 2014 contest dataset (Table 2)
+    |+ - ICPR2014               README.txt with link to the ICPR 2014 contest dataset
     |+ - Outex:                 ground truth segments and texture mosaics
-    |                           from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
+    |                           from the Outex_US_00000 test suite converted from .ras to .png
     |- results/
     |+ - Crystals               segmentations (.png) and boundary curves (.pdf) 
-    |+ - ICPR2014/Raw           segmentations before TxtMerge post-processing
-    |+ - ICPR2014/TxtMerge      segmentations after TxtMerge post-processing
-    |+ - ICPR2014/README.txt    link to Prague website with benchmark results
-    |+ - Outex/README.txt       instructions on how to run quantitative evaluation
+    |+ - ICPR2014               segmentation results used in Table 2
+    |+ + - Raw                  before TxtMerge post-processing
+    |+ + - TxtMerge             after TxtMerge post-processing
+    |+ + - README.txt           link to Prague website with benchmark results
+    |+ - Outex                  segmentation results used in Table 1
+    |+ + - README.txt           instructions on how to run quantitative evaluation
+    |+ + - Clustering           k-means clustering
+    |+ + - FSEG_ICPR2014        ICPR2014 version of FSEG (see link below)
+    |+ + - FSEGstar             FSEG with adjusted spectral histograms (see paper)
+    |+ + - FSEGstar-TxtMerge    FSEGstar without TxtMerge post-processing   
     
+The comparison with FSEG is based on the [ICPR 2014 version](http://web.ornl.gov/~jiy/FSEG_contest.zip).
 ___
 **QUANTITATIVE EVALUATION**:
  - ICPR 2014 benchmark: see [The Prague Texture Segmentation Datagenerator and Benchmark](http://mosaic.utia.cas.cz/index.php?act=view_res&f3=0&id=&dyn=0&vis=7&hr=1&sort=2&dir=0&f1=0&f2=-1&f4=-1&ndl=-1&nt=-2&alg=-1&ver=&bid=3)
