@@ -2,11 +2,12 @@
 Data and results used in our paper presented at the **IEEE Winter Conference on Applications of Computer Vision (WACV 2016)** - see reference below.
 ___
 **CONTENTS**:
- - Outex_US_00000 texture segmentation test suite (converted to .png format)
- - Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
- - Link to ICPR 2014 contest dataset
- - All corresponding segmentations produces by our method PCA-MS
+- Outex_US_00000 texture segmentation test suite (converted to .png format)
+- Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
+- Link to ICPR 2014 contest dataset
+- All corresponding segmentations produces by our method PCA-MS
 ___
+
 
     |- data/
     |+ - Crystals: ground truth crystal images (Figure 2)
