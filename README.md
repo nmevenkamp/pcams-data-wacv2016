@@ -6,6 +6,8 @@ ___
  - Crystal images (grains with 1,2 and 3 segments, CMS-GaAs two-phase crystal)
  - Link to ICPR 2014 contest dataset
  - All corresponding segmentations produces by our method PCA-MS
+ 
+
 
      |- data
      |+ - data/Crystals: ground truth crystal images (Figure 2)
@@ -17,10 +19,13 @@ ___
      |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing
      |+ - results/ICPR2014/README.txt: link to Prague website with benchmark results
      |+ - results/Outex/README.txt: instructions on how to run quantitative evaluation
+
 ___
 **QUANTITATIVE EVALUATION**:
  - ICPR 2014 benchmark: results are posted on [The Prague Texture Segmentation Datagenerator and Benchmark](http://mosaic.utia.cas.cz/index.php?act=view_res&f3=0&id=&dyn=0&vis=7&hr=1&sort=2&dir=0&f1=0&f2=-1&f4=-1&ndl=-1&nt=-2&alg=-1&ver=&bid=3)
  - Outex_US_00000 test suite: see results/Outex/README.txt
+ 
+
 ___
 **REFERENCE**:
 Mevenkamp, N., and Berkels, B. _Variational Multi-Phase Segmentation using High-Dimensional Local Features_. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)
