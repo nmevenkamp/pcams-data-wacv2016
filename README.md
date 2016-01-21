@@ -7,7 +7,6 @@ ___
 - Link to ICPR 2014 contest dataset
 - All corresponding segmentations produces by our method PCA-MS
  
-
 ___
 ___
 ___
